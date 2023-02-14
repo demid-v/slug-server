@@ -1,0 +1,33 @@
+{
+  "name": "slug-server",
+  "version": "0.1.0",
+  "description": "WebSocket server for Slug chat app",
+  "main": "index.ts",
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "start": "npm run build && node dist/index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18"
+  },
+  "dependencies": {
+    "typescript": "^4.9.5",
+    "vite": "^4.1.1",
+    "ws": "^8.12.1"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/slug-server"
+  },
+  "license": "MIT",
+  "keywords": [
+    "chat",
+    "glitch",
+    "node",
+    "websocket",
+    "ws"
+  ]
+}
