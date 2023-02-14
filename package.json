@@ -9,7 +9,8 @@
     "start": "npm run build && node dist/index.js"
   },
   "devDependencies": {
-    "@types/node": "^18.11.18"
+    "@types/node": "^18.11.18",
+    "@types/ws": "^8.5.4"
   },
   "dependencies": {
     "typescript": "^4.9.5",
